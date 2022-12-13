@@ -65,6 +65,7 @@ body {
   }
 
   .odd{
+    float: left;
     display: table;
     text-align: center;
     direction: left;
@@ -77,9 +78,8 @@ body {
     padding-left: 5%;
   }
   .even{
-    display: table;
+    float: right;
     text-align: center;
-    position: relative;
     left: 0;
     direction: right;
     color:#05386B;
@@ -126,15 +126,14 @@ p{
 
 
 .leftpic{
-  position: absolute;
+  float: left;
   left: 7%;
   width:40%;
 }
 
 .rightpic{
-  position: absolute;
+  float: right;
   right: 7%;
   width:40%;
-  top: 870px;
 }
   
